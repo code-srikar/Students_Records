@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+    <link rel="stylesheet" href="index.css">
+    <link src="C:\Users\CVR\Desktop\JPMC\node_modules\axios\dist\axios.min.js">
+</head>
+
+<body>
+    <header id="header">
+        <h1>Student Records</h1>
+    </header>
+    <form id="studentForm">
+        <input id="rno" type=" text" placeholder="Enter your Roll No.">
+        <input id="name" type="text" placeholder="Enter your Name">
+        <input id="course" type="text" placeholder="Enter your Course">
+        <button id="addStd">Add Student</button>
+    </form>
+    <table id="studentTable">
+        <thead id="tableHead">
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Course</th>
+        </thead>
+        <tbody id="studentsList"></tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
