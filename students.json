@@ -1,0 +1,9 @@
+{
+    "students": [
+        {
+            "rollno": 1,
+            "name": "Srikar",
+            "course": "CSE"
+        }
+    ]
+}

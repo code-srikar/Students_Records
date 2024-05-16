@@ -1,0 +1,33 @@
+#studentForm {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#studentTable {
+    width: 100%;
+    border-collapse: separate;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: 2px solid #007bff;
+}
